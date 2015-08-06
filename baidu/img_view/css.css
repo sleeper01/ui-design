@@ -1,0 +1,26 @@
+html,body{
+    height:100%;
+    overflow: hidden;
+}
+
+#main{
+    padding-right: 312px;
+    overflow: hidden;
+    height: 100%;
+    position: relative;
+}
+#sider{
+    position: absolute;
+    padding-top: 10px;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    min-height: 300px;
+    background: #F6F6F6;
+    -webkit-box-shadow: 4px 0 9px #d4d4d4 inset;
+    -moz-box-shadow: 4px 0 9px #d4d4d4 inset;
+    -ms-box-shadow: 4px 0 9px #d4d4d4 inset;
+    -o-box-shadow: 4px 0 9px #d4d4d4 inset;
+    box-shadow: 4px 0 9px #d4d4d4 inset;
+}
